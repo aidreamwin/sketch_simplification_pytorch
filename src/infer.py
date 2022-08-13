@@ -39,9 +39,9 @@ def infer_sketch_gan(opt):
 
 mean_std = {
     "gan": (0.9664114577640158, 0.0858381272736797, "../models/model_gan.pth", "https://github.com/aidreamwin/sketch_simplification_pytorch/releases/download/model/model_gan.pth"),
-    "mse": (0.9664423107454593, 0.08583666033640507, "../models/model_mse.pth", None),
-    "pencil_artist1": (0.9817833515894078, 0.0925009022585048, "../models/model_pencil_artist1.pth", None),
-    "pencil_artist2": (0.9851298627337799, 0.07418377454883571, "../models/model_pencil_artist2.pth", None),
+    "mse": (0.9664423107454593, 0.08583666033640507, "../models/model_mse.pth", "https://github.com/aidreamwin/sketch_simplification_pytorch/releases/download/model/model_mse.pth"),
+    "pencil_artist1": (0.9817833515894078, 0.0925009022585048, "../models/model_pencil_artist1.pth", "https://github.com/aidreamwin/sketch_simplification_pytorch/releases/download/model/model_pencil_artist1.pth"),
+    "pencil_artist2": (0.9851298627337799, 0.07418377454883571, "../models/model_pencil_artist2.pth", "https://github.com/aidreamwin/sketch_simplification_pytorch/releases/download/model/model_pencil_artist2.pth"),
 }
 
 def get_default_args(model_name):
